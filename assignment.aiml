@@ -1,0 +1,24 @@
+
+<aiml>
+   <category>
+      <pattern>I *</pattern>
+      <template>
+      <random>
+            <li> Do I <star/>?</li> 
+            
+            <li>I donot <star/></li>
+            </random>
+      </template>
+   </category>
+   <category>
+      <pattern>I AM *</pattern>
+      <template>
+      <random>
+            <li> I am not <star/>.</li> 
+            
+            <li>Am I <star/>?</li>
+            </random>
+      </template>
+   </category>
+
+</aiml>
