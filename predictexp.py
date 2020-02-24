@@ -13,7 +13,6 @@ import numpy as np
 def emotion_analysis(emotions):
     objects = ('angry', 'happy', 'sad')
     y_pos = np.arange(len(objects))
-    print('prediction= '+(max(objects)))
     plt.bar(y_pos, emotions, align='center', alpha=0.5)
     plt.xticks(y_pos, objects)
     plt.ylabel('percentage')
