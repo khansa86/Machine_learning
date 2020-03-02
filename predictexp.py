@@ -7,7 +7,7 @@ Created on Sun Feb 23 12:08:46 2020
 from keras.preprocessing import image
 from matplotlib import pyplot as plt
 from keras.models import load_model
-classifier=load_model('D:\expressions1.h5')
+classifier=load_model('C:\Users\hinaa\express.h5')
 import numpy as np
 
 def emotion_analysis(emotions):
